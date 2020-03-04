@@ -16,20 +16,10 @@ namespace FellOffACargoShip
         private IDataItemStore<string, AmmunitionBoxDef> AmmoBoxDefs = simGameState.DataManager.AmmoBoxDefs;
 
         private List<string> chassisDefBlacklist = new List<string> {
-            "chassisdef_atlas_AS7-GG",
             "chassisdef_centurion_TARGETDUMMY",
-            "chassisdef_marauder_MAD-BH",
-            "chassisdef_marauder_MAD-CM",
             "chassisdef_panther_TARGETDUMMY",
             "chassisdef_urbanmech_TESTDUMMY",
-            "chassisdef_warhammer_WHM-BW",
             "chassisdef_crab__fp_gladiator_BSC-27",
-            "chassisdef_archer_ARC-XO",
-            "chassisdef_archer_ARC-LS",
-            "chassisdef_annihilator_ANH-JH",
-            "chassisdef_bullshark_BSK-M3",
-            "chassisdef_bullshark_BSK-MAZ",
-            "chassisdef_rifleman_RFL-RIP",
             "chassisdef_griffin_GRF-1N_DECOMMISSIONED",
             "chassisdef_dragon_DRG-1N_BUSTEDUP"
         };
